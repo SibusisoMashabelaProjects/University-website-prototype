@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content = "with=device-width , initial-scale=1.0">
+    <title> Ithuteng University of Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+
+</head>
+<body>
+<!------- Header section --------->
+<section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>    
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <h1>Our Certificate</h1>
+    
+       
+</section>
+<!----Blog page content---->
+    <!----footer---->
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/ladies.jpg">
+            <h2>Our Certificate</h2>
+            <p>Congratulations for satisfying the requirements of your qualification. Please note the following important information regarding graduation ceremonies.</p>
+            <br>
+            <p>The Pretoria University Senate resolved on 24 February 2021, that as it was the practice during 2020, all physical graduation ceremonies (undergraduate and postgraduate) that were scheduled to take place during the first part of 2021 have been cancelled due to the national lockdown regulations aimed at managing the spread of Covid-19. This includes the handing-over ceremonies that would have taken place at venues other than our three campuses.</p>
+            <br>
+            <p>Although our country is currently under adjusted lockdown level 2, which allows for some limited events and activities to take place, we need to ensure that all possible measures remain in place to safeguard the health and safety of all our stakeholders. Therefore, events and other activities including graduation photo sessions on our campuses are still prohibited.</p>
+            <br>
+            <p>We understand that no virtual ceremony can ever replace an actual graduation ceremony. We will consider allowing graduates to participate in person during the graduation celebrations that may take place when the situation allows. Graduates will be informed and invited accordingly. In the meantime, we have requested the faculties to explore options where graduands can be involved in more personalised virtual events in which graduands can participate. These may and will however not take on the form of a formal graduation ceremony.</p>
+            <div class="comment-box">
+                
+                <h3>Leave a comment</h3>
+                <div class="comment-form">
+                <form action="blog-form-handler.php" method="post">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="email" name="email" placeholder="Enter email address" required>
+            <textarea rows="5" name="comment" placeholder="Your comment" required></textarea>
+            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+                    
+            </div>
+            </div>
+            
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Busines Analytics</span>
+                <span>21 </span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>30 </span>
+            </div>
+            <div>
+                <span>Machine learning</span>
+                <span>25</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>45</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>10</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>32</span>
+            </div>
+        </div>
+    
+    </div>
+</section>
+    
+<section class="footer">
+    <h4>About Us</h4>
+    <p>we are of of the biggiest universities in africa</p>
+    <div class="icons">
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-instagram"></i>
+    
+    </div>
+    <p>Designed by Sibusiso Mashabela</p>
+</section>   
+    
+    
+    
+    
+    <!----Javascript for Toggle Menu---->
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+        
+    
+    
+</body>
+</html>
