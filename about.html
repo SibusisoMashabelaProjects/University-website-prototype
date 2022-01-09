@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content = "with=device-width , initial-scale=1.0">
+    <title> Ithuteng University of Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+
+</head>
+<body>
+<!------- Header section --------->
+<section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>    
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <h1>About Us</h1>
+    
+       
+</section>
+<!----about us content---->
+
+<section class="about-us">
+    
+    <div class="row">
+        <div class="about-col">
+            <h1>About our institution</h1>
+            <p>The University of Pitori is a three-campus public university with its largest campus in the heart of Pretoria CBD. We are proud to stand among the world's leading research universities. University of Pitori offers a high quality of teaching, learning and research expertise across all nine faculties, including South Africa's only Faculty of Veterinary Science, and Africa's top Faculty of Law and business school. We firmly believe that our success is measured not only by what we have already achieved, but how the actions we take today impact on our future and the future of the continent as a whole. Our characteristic resolve and focussed commitment have seen us transform into a dynamic community of some of the world's brightest minds, working together across disciplines to discover knowledge and find solutions to some of society's most pressing concerns. For us, UP is more than a university, it is a way of life that is underpinned by striving for excellence, giving back to society, and living a life that is ethical, understanding and caring towards everyone. Our graduates are critical and creative thinkers who are able to function seamlessly in a professional work environment while maintaining a strong commitment to contributing to South Africa by being socially responsible and active citizens.
+            </p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+        <img src="images/studentabout.jpg">
+        </div>
+    </div>
+    
+    
+    </section>
+
+    <!----footer---->
+    
+<section class="footer">
+    <h4>About Us</h4>
+    <p>we are of of the biggiest universities in africa</p>
+    <div class="icons">
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-instagram"></i>
+    
+    </div>
+    <p>Designed by Sibusiso Mashabela</p>
+</section>   
+    
+    
+    
+    
+    <!----Javascript for Toggle Menu---->
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+        
+    
+    
+</body>
+</html>
